@@ -3,7 +3,7 @@ package com.products;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-import com.dao.ProductDaoo;
+import com.daoclass.ProductDao1;
 
 public class ProductMain {
 
@@ -15,7 +15,7 @@ public class ProductMain {
 //		int num=input.nextInt();
 		int num=Integer.parseInt(input.nextLine());
 		
-		ProductDaoo ob=new ProductDaoo();
+		ProductDao1 ob=new ProductDao1();
 		switch(num) 
 		{
 		case 1:
@@ -37,7 +37,7 @@ public class ProductMain {
 //		ob.insert(pr);
 		Product pr=new Product(s1,s3, s4, s5, s6, s7);
 //		ob.insert(pr);
-//		ob.insert(pr);
+	//	ob.insert(pr);
 		break;
 		case 2:
 		System.out.println("Enter your update details-first product name,next Product id ");
