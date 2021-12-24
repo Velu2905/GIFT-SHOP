@@ -3,7 +3,7 @@ package com.products;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-import com.daoclass.ProductDao1;
+import com.giftshop.impl.ProductsImpl;
 
 public class ProductMain {
 
@@ -15,7 +15,7 @@ public class ProductMain {
 //		int num=input.nextInt();
 		int num=Integer.parseInt(input.nextLine());
 		
-		ProductDao1 ob=new ProductDao1();
+		ProductsImpl ob=new ProductsImpl();
 		switch(num) 
 		{
 		case 1:
